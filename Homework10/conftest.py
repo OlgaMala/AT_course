@@ -11,11 +11,6 @@ def date_start_end():
 
 
 @pytest.fixture
-def date_2():
-    print(datetime.now)
-
-
-@pytest.fixture
 def time_func():
     t = time.time()
     yield
